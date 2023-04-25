@@ -18,13 +18,20 @@ fn main() -> () {
 }
 
 fn searches() -> () {
+    println!("\nSearches");
     println!("1. Linear Search");
     println!("2. Binary Search");
     print!("Enter Choice (Any other number exits): ");
     let choice: i32 = utils::get_num_input();
 
-    match choice == 1 || choice == 2 {
-        true => {
+    match choice {
+        1 | 2 => {
+            match choice {
+                1 => println!("\nLinear Search\n"),
+                2 => println!("\nBinary Search\n"),
+                _ => (),
+            }
+
             let vec: Vec<i32> = utils::gen_vec(utils::ARR_LEN as usize);
             println!("Element List: ");
 
@@ -37,10 +44,11 @@ fn searches() -> () {
 
             match choice {
                 1 => searches::linear::linsearch(query, &vec, vec.len()),
-                2 => println!("Binary Search Not Implemented Yet"),
+                2 => searches::binary::binsearch(query, &vec, vec.len()),
                 _ => (),
             }
         }
-        false => (),
+
+        _ => (),
     }
 }
