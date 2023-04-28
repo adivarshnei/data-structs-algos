@@ -1,6 +1,35 @@
 Learning Rust via implementing data structures and algorithms in it.
 
 Algorithms Implemented:
-- [ ] Searches
+- Searches
   - [x] Linear Search
   - [x] Binary Search
+- Sorting
+  - [x] Bubble Sort
+  - [ ] Selection Sort
+  - [ ] Insertion Sort
+  - [ ] Merge Sort
+  - [ ] Quick Sort
+  - [ ] Heap Sort
+  - [ ] Counting Sort
+  - [ ] Radix Sort
+  - [ ] Bucket Sort
+  - [ ] Bingo Sort
+  - [ ] ShellSort
+  - [ ] TimSort
+  - [ ] Comb Sort
+  - [ ] Pigeonhole Sort
+  - [ ] Cycle Sort
+  - [ ] Cocktail Sort
+  - [ ] Strand Sort
+  - [ ] Bitonic Sort
+  - [ ] Pancake Sort
+  - [ ] BogoSort
+  - [ ] Gnome Sort
+  - [ ] Sleep Sort
+  - [ ] Structure Sort
+  - [ ] Stooge Sort
+  - [ ] Tag Sort
+  - [ ] Tree Sort
+  - [ ] Brick Sort
+  - [ ] 3-way Merge Sort
